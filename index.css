@@ -1,0 +1,102 @@
+html, body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background: linear-gradient(rgba(20,0,255,0), rgba(20, 0, 255, 0), rgb(132, 191, 227, .5));
+}
+
+h1{
+    text-align:center;
+    color: rgb(114, 166, 197);
+}
+
+h3{
+    color: rgb(114, 166, 197);
+}
+
+button{
+    padding:10px;
+    font-size: 14px;
+    background-color: #FFB97A;
+    color:white;
+}
+
+button:hover{
+    background-color: #FFCEA3;
+}
+
+
+.sidebar{
+    width:16vw;
+    float:left;
+    padding-left:2vw;
+    padding-right:2vw;
+}
+
+.letter{
+    /*only relevant on guide and about pages*/
+    padding-left:20vw;
+    padding-right:20vw;
+}
+
+.content{
+    margin-bottom: 60px;
+    width:100vw;
+    float:left;
+}
+
+iframe{
+    /*change this to change the height of the calendar*/
+    height:60vh;
+}
+
+#disclaimer{
+    font-size:10px; 
+    color:white;
+}
+
+#middleSection{
+    /*change this to change the width of the calendar*/
+    width:60vw;
+    overflow:hidden;
+    float:left;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: rgb(132, 191, 227);
+  position: fixed; /* Set the navbar to fixed position */
+  bottom: 0; /* Position the navbar at the bottom of the page */
+  width: 100%; 
+}
+
+
+/*style the links in the navbar*/
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background-color: rgb(165, 213, 243);
+}
+
+
+/*currently this never happens, because we aren't adding the active class to links in the navbar.  could do this but might be hard since it's a one page thing so it's hard to figure out which link is active*/
+#navbar a.active {
+  color: white;
+}
+
+
+a{
+    color:#FFB97A;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#FFCEA3;
+}
