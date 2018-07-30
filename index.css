@@ -42,11 +42,6 @@ button:hover{
     margin-bottom: 60px;
     width:100vw;
     float:left;
-    margin-left:18vw;
-    margin-right:18vw;
-    width:60vw;
-    overflow:hidden;
-    float:left;
 }
 
 iframe{
@@ -56,6 +51,14 @@ iframe{
 #disclaimer{
     font-size:10px; 
     color:white;
+}
+
+#middleSection{
+    margin-left:18vw;
+    margin-right: 18vw;
+    width:60vw;
+    overflow:hidden;
+    float:left;
 }
 
 
