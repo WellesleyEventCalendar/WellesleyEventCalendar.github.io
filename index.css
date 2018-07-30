@@ -42,10 +42,14 @@ button:hover{
     margin-bottom: 60px;
     width:100vw;
     float:left;
+    margin-left:18vw;
+    margin-right:18vw;
+    width:60vw;
+    overflow:hidden;
+    float:left;
 }
 
 iframe{
-    /*change this to change the height of the calendar*/
     height:60vh;
 }
 
@@ -54,12 +58,6 @@ iframe{
     color:white;
 }
 
-#middleSection{
-    /*change this to change the width of the calendar*/
-    width:60vw;
-    overflow:hidden;
-    float:left;
-}
 
 #navbar {
   overflow: hidden;
