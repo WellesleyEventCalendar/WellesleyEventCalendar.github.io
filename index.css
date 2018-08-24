@@ -25,12 +25,6 @@ button:hover{
 }
 
 
-.sidebar{
-    width:10vw;
-    float:left;
-    padding-left:2vw;
-    padding-right:2vw;
-}
 
 .divider{
     height:10px;
@@ -39,11 +33,6 @@ button:hover{
     float:right;
 }
 
-.letter{
-    /*only relevant on guide and about pages*/
-    padding-left:12vw;
-    padding-right:12vw;
-}
 
 .letterColumn{
     width:34vw;
@@ -63,7 +52,7 @@ iframe{
 
 #disclaimer{
     font-size:10px; 
-    color:white;
+    color:black;
 }
 
 #middleSection{
@@ -95,17 +84,9 @@ iframe{
 }
 
 #navbar a:hover {
-  background-color: #E0F8A2;
+  background-color: #AAC26C;
 }
 
-
-/*currently this never happens, because we aren't adding the active class to links in the navbar.  could do this but might be hard since it's a one page thing so it's hard to figure out which link is active*/
-
-/*
-#navbar a.active {
-  color: white;
-}
-*/
 
 a{
     color:#F4D270;
@@ -115,3 +96,31 @@ a{
 a:hover{
     color:#f2dc9d;
 }
+
+
+/*different code for when the screen is narrow enough that the menu takes up 2 lines*/
+@media screen and (max-width: 721px) {
+    
+    /*move headers down a teensy bit so menu doesn't cover them*/
+    .mobileResponsive{
+        margin-top:50px;
+    }
+}
+
+/*different code for when the screen is narrow enough that the menu takes up 3+ lines*/
+@media screen and (max-width: 355px) {
+    
+    .mobileResponsive{
+        margin-top:100px;
+    }
+}
+
+
+/*people who are actually on mobile, change FAQ's to be one column instead of 2*/
+@media screen and (max-width: 500px) {
+    
+    .letterColumn{
+        width:72vw;
+    }
+}
+
